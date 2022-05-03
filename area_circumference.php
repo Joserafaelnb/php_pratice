@@ -17,6 +17,8 @@
     
 <?php
 
+$R =number_format() $R($_GET["R"]) ;
+
 
 ?>
 
