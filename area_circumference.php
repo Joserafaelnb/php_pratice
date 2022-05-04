@@ -17,7 +17,15 @@
     
 <?php
 
-$R =number_format() $R($_GET["R"]) ;
+define( 'pi' , 3.14159);
+
+(float)$R = ($_GET["R"]) ;
+
+$R = round($R,2);
+
+$A = pi*$R**2;
+$A = number_format($A, 4, '.' ,'');
+echo "A=$A\n";
 
 
 ?>
