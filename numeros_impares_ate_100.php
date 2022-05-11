@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<head>
+    <title> numeros impares ate 100</title>
+</head>
+
+<body>
 
 <?php
 
@@ -19,9 +25,7 @@ for( $cont =0 ; $cont <= parada; $cont++){
 
 
 
-foreach ($listaNumeros as $list){
-    echo "$list \n";
-}
+
 
 
 function NumeroImpar($numero_impar){
@@ -30,8 +34,21 @@ function NumeroImpar($numero_impar){
     return ($numero_impar%2 == 1) ? true : false;
 
 
-}
+} ?>
 
+<table>
+    <tr>
+        <th></th>
+        <?php foreach ($listaNumeros as $list) {?></tr>
+
+    <td><?php
+    echo "$list"; ?></td
+    <tr><?php  }       ?>
+
+    </tr>
+</table>
+
+</body>
 
 
 
